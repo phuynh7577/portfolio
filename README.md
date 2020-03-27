@@ -5,4 +5,4 @@
 ### Technology Used
 *HTML, CSS, Materialized & Bootstrap
 
-![Landing Page](/landingpage.jpg)
+![Landing Page](/landing.jpg)
