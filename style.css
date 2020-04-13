@@ -1,5 +1,3 @@
-
-
 * {
   margin: 0;
   padding: 0;
@@ -19,11 +17,8 @@ hr {
   
 }
 
-
 .title h1{
   position: absolute;
-  
-  
 }
 
 /* .bg h1::before {
@@ -182,6 +177,7 @@ nav a:hover {
   color: rgb(193, 50, 88);
   margin-bottom: 20px;
   font-family: "playfair display", sans-serif;
+  text-align: left;
 }
 
 .about-me p {
@@ -202,6 +198,7 @@ nav a:hover {
   color: rgb(193, 50, 88);
   margin-bottom: 20px;
   font-family: "playfair display", sans-serif;
+  text-align: right;
 }
 
 .details p{
@@ -267,11 +264,16 @@ nav a:hover {
   color: #434242;
 }
 
+.restful {
+  text-align: center;
+}
+
 /* Abilities */
 
 .abilities {
   background: rgb(201, 192, 157);
   padding: 120px 0;
+  text-align: center;
 }
 
 .abilities h1{
@@ -305,15 +307,10 @@ nav a:hover {
   margin: 0 auto;
 }
 
-.row ul {
-  list-style-type: none;
+.logo {
+  line-height: 130px;
 }
 
-.col-md-6 li {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
 
 /* projects */
 
@@ -404,4 +401,12 @@ nav a:hover {
   font-size: 14px;
   color: rgb(242, 240, 240);
   margin-top: 15px;
+}
+
+
+
+/* profile pic */
+.pic img {
+  border-radius: 50%;
+  border: 6px solid white;
 }
